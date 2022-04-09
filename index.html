@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ocean of Books</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Ocean of Books</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title">
+            </div>
+
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" id="author">
+            </div>
+
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="number" id="year">
+            </div>
+        </form>
+        <button type="submit" id="btn">submit</button>
+    </div>
+    <div >
+        <table border="1" id="showData" width="100%">
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+        </table>
+    </div>
+
+    <script src="index.js"></script> 
+</body>
+</html>

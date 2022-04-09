@@ -1,0 +1,30 @@
+.container{
+    margin: 0 auto;
+    width: 50%;
+    background-color: lightgrey;
+    text-align:center;
+    padding:10px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    border-radius:5px;
+    margin: 5px;
+}
+label{
+    font-size: 18px;
+}
+h2{
+    font-size: 34px;
+}
+#btn{
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#showData{
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* text-align: center; */
+    border: none;
+}
